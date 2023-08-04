@@ -1,0 +1,82 @@
+
+
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Dm Sans sans-serif;
+    background-color: #F1F4FA;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.logo > h1 {
+    color: #06152B;
+}
+
+.forum__logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.login > .email {
+    color: #06152B;
+    font-size: 16px;
+}
+
+
+.login > .inputEmail {
+    padding: 10px;
+    margin: 5px 0;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #F1F4FA;
+}
+
+.login > .login__btn {
+    padding: 12px;
+    background-color: #3A36DB;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-top: 12px;
+    border: none;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-wrapper > .sign__in {
+    width: 20%;
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px ;
+    letter-spacing: .2px;
+}
+
+
+.logout {
+    border: none;
+    padding: 10px;
+    background-color: blue;
+}
